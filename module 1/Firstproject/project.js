@@ -15,7 +15,7 @@ await tab.waitForTimeout(2000);
 await tab.waitForSelector(".not-checked");
 let alltag=await tab.$$(".not-checked");
 
-for(let i=0;i<alltag.length;i++)
+for(let i=0;i<3;i++)
 {
     let allids=await alltag[i].evaluate(function(ele){return ele.getAttribute("id");},alltag[i]);
     await tab.waitForTimeout(2000);

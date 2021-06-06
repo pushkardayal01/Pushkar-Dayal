@@ -25,8 +25,8 @@ await tab.waitForSelector(".aoD.hl");
 await tab.type(".aoD.hl","anildayal55@gmail.com");
 await tab.waitForTimeout(2000);
 await tab.type(".aoT","mobile Information");
-await tab.click(".a1.aaA.aMZ");
-//await tab.click(".T-I.J-J5-Ji.aoO.v7.T-I-atl.L3");
+//await tab.click(".a1.aaA.aMZ");
+await tab.click(".T-I.J-J5-Ji.aoO.v7.T-I-atl.L3");
 
 
 
@@ -51,3 +51,4 @@ login();
 // await tab.type("#input-1", id);
 // await tab.type("#input-2", pw);
 // await tab.click( ".ui-btn.ui-btn-large.ui-btn-primary.auth-button.ui-btn-styled");
+

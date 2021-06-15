@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #9b59b6;
+}
+.todocontainer
+{
+
+/* background: #e84393; */
+
+height: 81px;
+
+width: 100%;
+
+padding: 20px;
+}
+.todoinput
+{
+
+height: 62%;
+
+width: 84%;
+
+padding: 10;
+
+padding: 0px;
+
+/* margin: 9px; */
+
+border: 0px;
+
+border-radius: 50px;
+
+outline: none;
+
+margin: block;
+
+margin: auto;
+
+display: block;
+
+margin-bottom: 10px;
+}
+.addinputbutton
+{
+
+diplay: block;
+
+height: 32px;
+
+width: 116px;
+
+/* margin: auto; */
+
+padding: 6px;
+
+font-size: 10px;
+
+margin: auto;
+
+display: block;
+}
+.contains{
+
+}
+.todoitem{
+
+}
+.ptagclass{
+
+}
+.delbuttonclass{
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #9b59b6;
+}
+.todocontainer
+{
+
+/* background: #e84393; */
+
+height: 81px;
+
+width: 100%;
+
+padding: 20px;
+}
+.todoinput
+{
+
+height: 62%;
+
+width: 84%;
+
+padding: 10;
+
+padding: 12px;
+
+/* margin: 9px; */
+
+border: 0px;
+
+border-radius: 50px;
+
+outline: none;
+
+margin: block;
+
+margin: auto;
+
+display: block;
+
+margin-bottom: 10px;
+}
+.addinputbutton
+{
+
+diplay: block;
+
+height: 32px;
+
+width: 116px;
+
+/* margin: auto; */
+
+padding: 6px;
+
+font-size: 10px;
+
+margin: auto;
+
+display: block;
+
+font-style: bold;
+
+font-style: inherit;
+}
+.contains{
+
+}
+.todoitem{
+
+}
+.ptagclass{
+
+}
+.delbuttonclass{
+
+}
+
+.contains{
+
+}
+.todoitem{
+
+color: white;
+
+background: #a29bfe;
+
+padding: 10px;
+
+margin top: 1;
+
+margin: 10px;
+
+display: block;
+
+width: 308px;
+
+margin: auto;
+
+margin-top: 31px;
+
+border: 0px solid;
+
+border-radius: 22px;
+
+text-align: center;
+}
+.ptagclass{
+
+}
+.delbuttonclass{
+
+color: white;
+
+background: #d63031;
+
+widht: 45px;
+}
+
+
+.contains{
+
+}
+.todoitem{
+
+}
+.ptagclass{
+
+}
+.delbuttonclass{
+
+}

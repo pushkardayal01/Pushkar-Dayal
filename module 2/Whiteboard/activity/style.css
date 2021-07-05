@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.tool-box{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+}
+.tool-container{
+    background: aliceblue;
+    display: flex;
+    height: 70%;
+    width: 70%;
+    justify-content: space-evenly;
+}
+.tool{
+
+height: 60%;
+
+width: 100%;
+}
+.tool img{
+    height: 100%;
+    width: 100%;
+}
+.drawing{
+    /* background: lightgoldenrodyellow; */
+}
+#canvas{
+
+}

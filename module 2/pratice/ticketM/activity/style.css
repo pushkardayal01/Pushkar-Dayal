@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+    .header{
+    
+    height: 100px;
+    
+    width: 100%;
+    
+    background: burlywood;
+    
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    align-items: center;
+    }
+    .filter{
+    
+height: 40%;
+    
+width: 25%;
+    
+background: beige;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+margin: auto;
+    
+border: 0px;
+    
+border-radius: 10px;
+    }
+    .Red{
+    
+    background: red;
+    
+    height: 63%;
+    
+    width: 10%;
+    
+    border: 0px;
+    
+    border-radius: 10px;
+    margin: auto;
+    }
+    .Green{
+        background: green;
+    
+        height: 63%;
+        
+        width: 10%;
+        
+        border: 0px;
+        
+        border-radius: 10px;
+        margin: auto;
+    }
+    .Blue{
+        background: blue;
+    
+        height: 63%;
+        
+        width: 10%;
+        
+        border: 0px;
+        
+        border-radius: 10px;
+        margin: auto;
+    }
+    .Yellow{
+        background: yellow;
+    
+        height: 63%;
+        
+        width: 10%;
+        
+        border: 0px;
+        
+        border-radius: 10px;
+        margin: auto;
+    }
+    .black{
+        background: black;
+    
+        height: 63%;
+        
+        width: 10%;
+        
+        border: 0px;
+        
+        border-radius: 10px;
+        margin: auto;
+    }
+    .action{
+    
+height: 40%;
+    
+width: 7%;
+    
+background: beige;
+    
+margin: auto;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+border: 0px;
+    
+border-radius: 10px;
+    }
+    .open{
+    
+font-size: inherit;
+    
+border: 0px solid;
+    
+border-radius: 28px;
+    
+padding: 0px;
+    
+margin: auto;
+    }
+    .close{
+        font-size: inherit;
+    
+        border: 0px solid;
+            
+        border-radius: 10px;
+            
+        padding: 0px;
+            
+        margin: auto;
+    }
+
+.ticket-constainer{
+    width:100%;
+    
+    height: calc( 100vh - 100px );
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tickets{
+
+height: 250px;
+
+width: 400px;
+
+border: 1px solid;
+
+position: absolute;
+
+top: 250px;
+
+left: 250px;
+}
+.ticket-head{
+
+height: 25px;
+
+border: 1px solid;
+
+width: 100%;
+
+background: red;
+}
+.ticket-body{
+
+width: 101%;
+
+height: calc(100vh-70px);
+
+height: 250px;
+
+border: 1px solid;
+
+display: flex;
+}
+.ticket-design{
+
+display: flex;
+
+background: aqua;
+
+height: 100%;
+
+width: 30%;
+
+flex-direction: column;
+
+justify-content: space-evenly;
+
+/* align-content: center; */
+
+align-items: center;
+}
+.ticket-input{
+    
+background: bisque;
+    
+height: 100%;
+    
+width: 75%;
+    
+padding: 10px;
+    
+font-size: larger;
+    
+font-style: italic;
+}
+.ticket-Red{
+    background: palevioletred;
+    height: 18px;width: 70px;}
+.ticket-Green{
+    height: 18px;
+    width: 70px;
+    background: darkolivegreen;
+}
+.ticket-Blue{
+    height: 18px;
+    width: 70px;
+    background: dodgerblue;
+}
+.ticket-Yellow{
+    height: 18px;
+    width: 70px;
+    background: yellow;
+}
+.ticket-black{
+    height: 18px;
+    width: 70px;
+    background: chocolate;
+}

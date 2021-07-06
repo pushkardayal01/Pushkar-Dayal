@@ -33,3 +33,64 @@ width: 100%;
 #canvas{
 
 }
+.stricky{
+
+position: absolute;
+
+top: 214px;
+
+left: 272px;
+
+height: 276px;
+
+width: 225px;
+
+background: antiquewhite;
+}
+.header{
+
+height: 10%;
+
+width: 100%;
+
+background: aliceblue;
+
+display: flex;
+
+justify-content: flex-end;
+
+align-items: center;
+}
+.minimize{
+
+height: 80%;
+
+width: 10%;
+
+background: lightgoldenrodyellow;
+
+font-size: 46Px;
+
+align-items: center;
+
+display: flex;
+
+align-items: center;
+}
+.close{
+    height: 80%;
+    width: 10%;
+    background: lightgoldenrodyellow;
+    margin: 3%;
+    font-size: 20px;
+}
+.stricky-body{
+    
+outline: none;
+    
+padding: 10px;
+    
+overflow: none;
+    
+overflow: unset;
+}

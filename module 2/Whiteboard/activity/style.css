@@ -94,3 +94,9 @@ overflow: none;
     
 overflow: unset;
 }
+.active-tool{
+    transform: scale(1.2);
+}
+.fade{
+    opacity: 0.5;
+}

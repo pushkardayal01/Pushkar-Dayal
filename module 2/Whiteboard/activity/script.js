@@ -115,6 +115,14 @@ canvas.addEventListener("mouseup",function(e){
   line=[];
 
   console.log(linedb);
+  if(linedb.length){
+    undo.classList.add("active-tool");
+    undo.classList.remove("fade");
+ }
+  else{
+     undo.classList.remove("active-tool");
+        undo.classList.add("fade");
+}
 });
 
 // let undo=document.querySelector("#undo");

@@ -8,16 +8,26 @@ undo.addEventListener("click", undoline);
 function undoline(){
     if(linedb.length)
     {
+        
         let redolist=linedb.pop();
         redo.push(redolist);
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         drawagain();
     }
     
+    
 }
 
 function drawagain(){
     console.log(linedb);
+    if(linedb.length){
+        undo.classList.add("active-tool");
+        undo.classList.remove("fade");
+    }
+    else{
+        undo.classList.remove("active-tool");
+        undo.classList.add("fade");
+    }
     for(let i=0;i<linedb.length;i++)
     {
         let line=linedb[i];

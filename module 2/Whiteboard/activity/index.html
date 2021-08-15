@@ -10,7 +10,27 @@
 <body>
     <div class="tool-box">
         <div class="tool-container">
-            <div class="tool active-tool" id="pencil"><img src="./newicons/Black_Pencil.svg" alt=""></div>
+            <div class="tool active-tool" id="pencil"><img src="./newicons/Black_Pencil.svg" alt="">
+                <div class="pencil-tool-kit hide">
+                    <div class="pen-size">
+                        <div class="text">Pen Size</div>
+                        <input type="range" id="pensize" value="1" min="1" max="40" style="width: 100%"/>
+                    </div>
+                    <div class="tool-color">
+                        <div class="text">Pen Color</div>
+                    <div class="color-tool">
+                        
+                        <div class="red"></div>
+                        <div class="black"></div>
+                        <div class="green"></div>
+                        <div class="yellow"></div>
+                        <div class="brown"></div>
+                        <div class="blue"></div>
+                    </div>
+                    </div>
+            
+                </div>
+            </div>
             <div class="tool fade" id="eraser"><img src="./newicons/Eraser.svg" alt=""></div>
             <div class="tool fade" id="undo"><img src="./newicons/Undo.svg" alt=""></div>
             <div class="tool" id="redo"><img src="./newicons/Redo.svg" alt=""></div>
